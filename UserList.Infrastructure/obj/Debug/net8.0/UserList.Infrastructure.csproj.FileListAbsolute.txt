@@ -1,0 +1,14 @@
+C:\Users\RafaelSouto\DedoPorco\UserList\UserList\UserList.Infrastructure\bin\Debug\net8.0\UserList.Infrastructure.deps.json
+C:\Users\RafaelSouto\DedoPorco\UserList\UserList\UserList.Infrastructure\bin\Debug\net8.0\UserList.Infrastructure.runtimeconfig.json
+C:\Users\RafaelSouto\DedoPorco\UserList\UserList\UserList.Infrastructure\bin\Debug\net8.0\UserList.Infrastructure.dll
+C:\Users\RafaelSouto\DedoPorco\UserList\UserList\UserList.Infrastructure\bin\Debug\net8.0\UserList.Infrastructure.pdb
+C:\Users\RafaelSouto\DedoPorco\UserList\UserList\UserList.Infrastructure\obj\Debug\net8.0\UserList.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\RafaelSouto\DedoPorco\UserList\UserList\UserList.Infrastructure\obj\Debug\net8.0\UserList.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RafaelSouto\DedoPorco\UserList\UserList\UserList.Infrastructure\obj\Debug\net8.0\UserList.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\RafaelSouto\DedoPorco\UserList\UserList\UserList.Infrastructure\obj\Debug\net8.0\UserList.Infrastructure.AssemblyInfo.cs
+C:\Users\RafaelSouto\DedoPorco\UserList\UserList\UserList.Infrastructure\obj\Debug\net8.0\UserList.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\RafaelSouto\DedoPorco\UserList\UserList\UserList.Infrastructure\obj\Debug\net8.0\UserList.Infrastructure.dll
+C:\Users\RafaelSouto\DedoPorco\UserList\UserList\UserList.Infrastructure\obj\Debug\net8.0\refint\UserList.Infrastructure.dll
+C:\Users\RafaelSouto\DedoPorco\UserList\UserList\UserList.Infrastructure\obj\Debug\net8.0\UserList.Infrastructure.pdb
+C:\Users\RafaelSouto\DedoPorco\UserList\UserList\UserList.Infrastructure\obj\Debug\net8.0\UserList.Infrastructure.genruntimeconfig.cache
+C:\Users\RafaelSouto\DedoPorco\UserList\UserList\UserList.Infrastructure\obj\Debug\net8.0\ref\UserList.Infrastructure.dll
