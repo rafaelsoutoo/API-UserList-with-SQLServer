@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\RafaelSouto\\DedoPorco\\UserList\\UserList\\UserList.Communication\\UserList.Communication.csproj": {}
+    "C:\\Users\\RafaelSouto\\DedoPorco\\cSharp\\UserList.Communication\\UserList.Communication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\RafaelSouto\\DedoPorco\\UserList\\UserList\\UserList.Communication\\UserList.Communication.csproj": {
+    "C:\\Users\\RafaelSouto\\DedoPorco\\cSharp\\UserList.Communication\\UserList.Communication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RafaelSouto\\DedoPorco\\UserList\\UserList\\UserList.Communication\\UserList.Communication.csproj",
+        "projectUniqueName": "C:\\Users\\RafaelSouto\\DedoPorco\\cSharp\\UserList.Communication\\UserList.Communication.csproj",
         "projectName": "UserList.Communication",
-        "projectPath": "C:\\Users\\RafaelSouto\\DedoPorco\\UserList\\UserList\\UserList.Communication\\UserList.Communication.csproj",
+        "projectPath": "C:\\Users\\RafaelSouto\\DedoPorco\\cSharp\\UserList.Communication\\UserList.Communication.csproj",
         "packagesPath": "C:\\Users\\RafaelSouto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RafaelSouto\\DedoPorco\\UserList\\UserList\\UserList.Communication\\obj\\",
+        "outputPath": "C:\\Users\\RafaelSouto\\DedoPorco\\cSharp\\UserList.Communication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

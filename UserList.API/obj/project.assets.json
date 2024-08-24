@@ -4590,11 +4590,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\RafaelSouto\\DedoPorco\\UserList\\UserList\\UserList.API\\UserList.API.csproj",
+      "projectUniqueName": "C:\\Users\\RafaelSouto\\DedoPorco\\cSharp\\UserList.API\\UserList.API.csproj",
       "projectName": "UserList.API",
-      "projectPath": "C:\\Users\\RafaelSouto\\DedoPorco\\UserList\\UserList\\UserList.API\\UserList.API.csproj",
+      "projectPath": "C:\\Users\\RafaelSouto\\DedoPorco\\cSharp\\UserList.API\\UserList.API.csproj",
       "packagesPath": "C:\\Users\\RafaelSouto\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\RafaelSouto\\DedoPorco\\UserList\\UserList\\UserList.API\\obj\\",
+      "outputPath": "C:\\Users\\RafaelSouto\\DedoPorco\\cSharp\\UserList.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4616,11 +4616,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\RafaelSouto\\DedoPorco\\UserList\\UserList\\UserList.Application\\UserList.Application.csproj": {
-              "projectPath": "C:\\Users\\RafaelSouto\\DedoPorco\\UserList\\UserList\\UserList.Application\\UserList.Application.csproj"
+            "C:\\Users\\RafaelSouto\\DedoPorco\\cSharp\\UserList.Application\\UserList.Application.csproj": {
+              "projectPath": "C:\\Users\\RafaelSouto\\DedoPorco\\cSharp\\UserList.Application\\UserList.Application.csproj"
             },
-            "C:\\Users\\RafaelSouto\\DedoPorco\\UserList\\UserList\\UserList.Communication\\UserList.Communication.csproj": {
-              "projectPath": "C:\\Users\\RafaelSouto\\DedoPorco\\UserList\\UserList\\UserList.Communication\\UserList.Communication.csproj"
+            "C:\\Users\\RafaelSouto\\DedoPorco\\cSharp\\UserList.Communication\\UserList.Communication.csproj": {
+              "projectPath": "C:\\Users\\RafaelSouto\\DedoPorco\\cSharp\\UserList.Communication\\UserList.Communication.csproj"
             }
           }
         }

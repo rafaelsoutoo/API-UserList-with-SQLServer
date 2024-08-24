@@ -4112,11 +4112,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\RafaelSouto\\DedoPorco\\UserList\\UserList\\UserList.Infrastructure\\UserList.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\RafaelSouto\\DedoPorco\\cSharp\\UserList.Infrastructure\\UserList.Infrastructure.csproj",
       "projectName": "UserList.Infrastructure",
-      "projectPath": "C:\\Users\\RafaelSouto\\DedoPorco\\UserList\\UserList\\UserList.Infrastructure\\UserList.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\RafaelSouto\\DedoPorco\\cSharp\\UserList.Infrastructure\\UserList.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\RafaelSouto\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\RafaelSouto\\DedoPorco\\UserList\\UserList\\UserList.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\RafaelSouto\\DedoPorco\\cSharp\\UserList.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
