@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using UserList.Application.UseCase.Users.Delete;
 using UserList.Application.UseCase.Users.GetAll;
 using UserList.Application.UseCase.Users.Register;
 using UserList.Communication.Requests;
@@ -13,11 +14,13 @@ namespace Register.API.Controllers
     {
         private readonly RegisterUserUseCase _registerUseCase;
         private readonly GetAllUserUseCase _getAllUserUseCase;
+        private readonly DeleteUserUseCase _deleteUserUseCase;
 
         public UserController(InfrastructureDbContext context)
         {
             _registerUseCase = new RegisterUserUseCase(context);
             _getAllUserUseCase = new GetAllUserUseCase(context);
+            _deleteUserUseCase = new DeleteUserUseCase(context);
         }
 
         [HttpPost("register")]
@@ -42,5 +45,22 @@ namespace Register.API.Controllers
 
             return Ok(users);
         }
+
+
+        [HttpDelete("delete/{id}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public IActionResult Delete([FromRoute] Guid id)
+        {
+            var response = _deleteUserUseCase.Execute(id);
+
+            if (!response.Success)
+            {
+                return NotFound(new { message = response.Message });
+            }
+
+            return Ok(new { message = response.Message });
+        }
+
     }
 }

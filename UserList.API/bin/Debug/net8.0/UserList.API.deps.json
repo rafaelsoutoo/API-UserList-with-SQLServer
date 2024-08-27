@@ -915,7 +915,10 @@
           "UserList.Infrastructure": "1.0.0"
         },
         "runtime": {
-          "UserList.Application.dll": {}
+          "UserList.Application.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "UserList.Communication/1.0.0": {
@@ -924,7 +927,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.8"
         },
         "runtime": {
-          "UserList.Communication.dll": {}
+          "UserList.Communication.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "UserList.Infrastructure/1.0.0": {
@@ -933,7 +939,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.8"
         },
         "runtime": {
-          "UserList.Infrastructure.dll": {}
+          "UserList.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

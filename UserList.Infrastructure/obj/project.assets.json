@@ -4106,23 +4106,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\RafaelSouto\\.nuget\\packages\\": {},
+    "C:\\Users\\alunoftt01\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\RafaelSouto\\DedoPorco\\cSharp\\UserList.Infrastructure\\UserList.Infrastructure.csproj",
+      "projectUniqueName": "C:\\me\\cSharp\\UserList.Infrastructure\\UserList.Infrastructure.csproj",
       "projectName": "UserList.Infrastructure",
-      "projectPath": "C:\\Users\\RafaelSouto\\DedoPorco\\cSharp\\UserList.Infrastructure\\UserList.Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\RafaelSouto\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\RafaelSouto\\DedoPorco\\cSharp\\UserList.Infrastructure\\obj\\",
+      "projectPath": "C:\\me\\cSharp\\UserList.Infrastructure\\UserList.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\alunoftt01\\.nuget\\packages\\",
+      "outputPath": "C:\\me\\cSharp\\UserList.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\RafaelSouto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\alunoftt01\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4186,7 +4186,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

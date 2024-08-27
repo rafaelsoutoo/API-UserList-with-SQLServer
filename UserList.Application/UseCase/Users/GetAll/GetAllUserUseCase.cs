@@ -5,16 +5,16 @@ namespace UserList.Application.UseCase.Users.GetAll
 {
     public class GetAllUserUseCase
     {
-        private readonly InfrastructureDbContext _context;
+        private readonly InfrastructureDbContext contextDB;
 
         public GetAllUserUseCase(InfrastructureDbContext context)
         {
-            _context = context;
+            contextDB = context;
         }
 
         public List<ResponseAllUsersJson> Execute()
         {
-            var users = _context.Users.Select(user => new ResponseAllUsersJson
+            var users = contextDB.Users.Select(user => new ResponseAllUsersJson
             {
                 Id = user.Id,
                 Name = user.Name,

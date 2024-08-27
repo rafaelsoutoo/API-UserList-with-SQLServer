@@ -7,11 +7,11 @@ namespace UserList.Application.UseCase.Users.Register
 {
     public class RegisterUserUseCase
     {
-        private readonly InfrastructureDbContext _context;
+        private readonly InfrastructureDbContext contextDB;
 
         public RegisterUserUseCase(InfrastructureDbContext context)
         {
-            _context = context;
+            contextDB = context;
         }
 
         public ResponseRegisterUserJson Execute(RequestUserJson request)
@@ -24,8 +24,8 @@ namespace UserList.Application.UseCase.Users.Register
 
             };
 
-            _context.Users.Add(user);
-            _context.SaveChanges();
+            contextDB.Users.Add(user);// Adiciona o novo usuário ao contexto
+            contextDB.SaveChanges();// Persiste as mudanças no banco de dados
 
             return new ResponseRegisterUserJson
             {
