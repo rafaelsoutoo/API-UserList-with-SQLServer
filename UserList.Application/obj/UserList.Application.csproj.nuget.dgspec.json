@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\me\\cSharp\\UserList.Application\\UserList.Application.csproj": {}
+    "C:\\me\\UserList.Application\\UserList.Application.csproj": {}
   },
   "projects": {
-    "C:\\me\\cSharp\\UserList.Application\\UserList.Application.csproj": {
+    "C:\\me\\UserList.Application\\UserList.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\me\\cSharp\\UserList.Application\\UserList.Application.csproj",
+        "projectUniqueName": "C:\\me\\UserList.Application\\UserList.Application.csproj",
         "projectName": "UserList.Application",
-        "projectPath": "C:\\me\\cSharp\\UserList.Application\\UserList.Application.csproj",
+        "projectPath": "C:\\me\\UserList.Application\\UserList.Application.csproj",
         "packagesPath": "C:\\Users\\alunoftt01\\.nuget\\packages\\",
-        "outputPath": "C:\\me\\cSharp\\UserList.Application\\obj\\",
+        "outputPath": "C:\\me\\UserList.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,11 +33,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\me\\cSharp\\UserList.Communication\\UserList.Communication.csproj": {
-                "projectPath": "C:\\me\\cSharp\\UserList.Communication\\UserList.Communication.csproj"
+              "C:\\me\\UserList.Communication\\UserList.Communication.csproj": {
+                "projectPath": "C:\\me\\UserList.Communication\\UserList.Communication.csproj"
               },
-              "C:\\me\\cSharp\\UserList.Infrastructure\\UserList.Infrastructure.csproj": {
-                "projectPath": "C:\\me\\cSharp\\UserList.Infrastructure\\UserList.Infrastructure.csproj"
+              "C:\\me\\UserList.Infrastructure\\UserList.Infrastructure.csproj": {
+                "projectPath": "C:\\me\\UserList.Infrastructure\\UserList.Infrastructure.csproj"
               }
             }
           }
@@ -92,14 +92,14 @@
         }
       }
     },
-    "C:\\me\\cSharp\\UserList.Communication\\UserList.Communication.csproj": {
+    "C:\\me\\UserList.Communication\\UserList.Communication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\me\\cSharp\\UserList.Communication\\UserList.Communication.csproj",
+        "projectUniqueName": "C:\\me\\UserList.Communication\\UserList.Communication.csproj",
         "projectName": "UserList.Communication",
-        "projectPath": "C:\\me\\cSharp\\UserList.Communication\\UserList.Communication.csproj",
+        "projectPath": "C:\\me\\UserList.Communication\\UserList.Communication.csproj",
         "packagesPath": "C:\\Users\\alunoftt01\\.nuget\\packages\\",
-        "outputPath": "C:\\me\\cSharp\\UserList.Communication\\obj\\",
+        "outputPath": "C:\\me\\UserList.Communication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -173,14 +173,14 @@
         }
       }
     },
-    "C:\\me\\cSharp\\UserList.Infrastructure\\UserList.Infrastructure.csproj": {
+    "C:\\me\\UserList.Infrastructure\\UserList.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\me\\cSharp\\UserList.Infrastructure\\UserList.Infrastructure.csproj",
+        "projectUniqueName": "C:\\me\\UserList.Infrastructure\\UserList.Infrastructure.csproj",
         "projectName": "UserList.Infrastructure",
-        "projectPath": "C:\\me\\cSharp\\UserList.Infrastructure\\UserList.Infrastructure.csproj",
+        "projectPath": "C:\\me\\UserList.Infrastructure\\UserList.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\alunoftt01\\.nuget\\packages\\",
-        "outputPath": "C:\\me\\cSharp\\UserList.Infrastructure\\obj\\",
+        "outputPath": "C:\\me\\UserList.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -12,8 +12,8 @@ using UserList.Infrastructure.Data;
 namespace UserList.Infrastructure.Migrations
 {
     [DbContext(typeof(InfrastructureDbContext))]
-    [Migration("20240827173647_InitalCreate")]
-    partial class InitalCreate
+    [Migration("20240828201649_initial")]
+    partial class initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

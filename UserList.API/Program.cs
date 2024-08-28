@@ -3,8 +3,10 @@ using UserList.Infrastructure.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
+string connectionString = builder.Configuration.GetConnectionString("DefaultConnection")!;
+
 builder.Services.AddDbContext<InfrastructureDbContext>(options =>
-    options.UseSqlServer("Server=LBFTT-23\\SQLEXPRESS;Database=UserDB;Trusted_Connection=True;TrustServerCertificate=True;",
+    options.UseSqlServer(connectionString,
         b => b.MigrationsAssembly("UserList.Infrastructure")));
 
 builder.Services.AddControllers();
