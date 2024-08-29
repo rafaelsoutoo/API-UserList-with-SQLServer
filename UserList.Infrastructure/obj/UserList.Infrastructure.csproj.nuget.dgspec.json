@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\me\\UserList.Infrastructure\\UserList.Infrastructure.csproj": {}
+    "C:\\me\\usrList\\UserList.Infrastructure\\UserList.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\me\\UserList.Infrastructure\\UserList.Infrastructure.csproj": {
+    "C:\\me\\usrList\\UserList.Infrastructure\\UserList.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\me\\UserList.Infrastructure\\UserList.Infrastructure.csproj",
+        "projectUniqueName": "C:\\me\\usrList\\UserList.Infrastructure\\UserList.Infrastructure.csproj",
         "projectName": "UserList.Infrastructure",
-        "projectPath": "C:\\me\\UserList.Infrastructure\\UserList.Infrastructure.csproj",
+        "projectPath": "C:\\me\\usrList\\UserList.Infrastructure\\UserList.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\alunoftt01\\.nuget\\packages\\",
-        "outputPath": "C:\\me\\UserList.Infrastructure\\obj\\",
+        "outputPath": "C:\\me\\usrList\\UserList.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

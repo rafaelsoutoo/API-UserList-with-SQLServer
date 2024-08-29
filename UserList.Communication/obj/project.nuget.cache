@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "x+nvCDpgnDs=",
+  "dgSpecHash": "85WBt/K2KjE=",
   "success": true,
-  "projectFilePath": "C:\\me\\UserList.Communication\\UserList.Communication.csproj",
+  "projectFilePath": "C:\\me\\usrList\\UserList.Communication\\UserList.Communication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alunoftt01\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\alunoftt01\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
