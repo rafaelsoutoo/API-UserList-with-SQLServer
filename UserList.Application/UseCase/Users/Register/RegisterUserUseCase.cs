@@ -16,6 +16,14 @@ namespace UserList.Application.UseCase.Users.Register
 
         public ResponseRegisterUserJson Execute(RequestUserJson request)
         {
+            
+            var  emailExist= contextDB.Users.FirstOrDefault(x => x.Email == request.Email);
+
+            if (emailExist != null)
+            {
+                throw new Exception("E-mail já cadastrado.");
+            }
+            
             var user = new User
             {
                 Name = request.Name,

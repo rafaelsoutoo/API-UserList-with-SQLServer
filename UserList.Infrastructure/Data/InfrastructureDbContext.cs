@@ -11,5 +11,7 @@ namespace UserList.Infrastructure.Data
         }
 
         public DbSet<User> Users { get; set; }
+        
+        
     }
 }

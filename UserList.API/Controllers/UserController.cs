@@ -6,7 +6,7 @@ using UserList.Communication.Requests;
 using UserList.Communication.Responses;
 using UserList.Infrastructure.Data;
 
-namespace Register.API.Controllers
+namespace UserList.API.Controllers
 {
     [Route("[controller]")]
     [ApiController]
@@ -23,12 +23,21 @@ namespace Register.API.Controllers
             _deleteUserUseCase = new DeleteUserUseCase(context);
         }
 
+        
         [HttpPost("register")]
         [ProducesResponseType(typeof(ResponseRegisterUserJson), StatusCodes.Status201Created)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public IActionResult Register([FromBody] RequestUserJson request)
         {
-            var response = _registerUseCase.Execute(request);
-            return CreatedAtAction(nameof(Register), new { id = response.Id }, response);
+            try
+            {
+                var response = _registerUseCase.Execute(request);
+                return CreatedAtAction(nameof(Register), new { id = response.Id }, response);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
         }
 
         [HttpGet("get")]

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\me\\usrList\\UserList.Communication\\UserList.Communication.csproj": {}
+    "C:\\me\\API-UserList-with-SQLServer-\\API-UserList-with-SQLServer\\UserList.Communication\\UserList.Communication.csproj": {}
   },
   "projects": {
-    "C:\\me\\usrList\\UserList.Communication\\UserList.Communication.csproj": {
+    "C:\\me\\API-UserList-with-SQLServer-\\API-UserList-with-SQLServer\\UserList.Communication\\UserList.Communication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\me\\usrList\\UserList.Communication\\UserList.Communication.csproj",
+        "projectUniqueName": "C:\\me\\API-UserList-with-SQLServer-\\API-UserList-with-SQLServer\\UserList.Communication\\UserList.Communication.csproj",
         "projectName": "UserList.Communication",
-        "projectPath": "C:\\me\\usrList\\UserList.Communication\\UserList.Communication.csproj",
+        "projectPath": "C:\\me\\API-UserList-with-SQLServer-\\API-UserList-with-SQLServer\\UserList.Communication\\UserList.Communication.csproj",
         "packagesPath": "C:\\Users\\alunoftt01\\.nuget\\packages\\",
-        "outputPath": "C:\\me\\usrList\\UserList.Communication\\obj\\",
+        "outputPath": "C:\\me\\API-UserList-with-SQLServer-\\API-UserList-with-SQLServer\\UserList.Communication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +50,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.8, )"
